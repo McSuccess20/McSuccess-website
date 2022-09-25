@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-weight;
+    font-family:arial,
+}
+nav{
+    display: flex;
+background: blue;
+justify-content: space-between;
+height:px;
+width:100%;
+align-items:center;
+pading:0rem 0rem;
+margin-right:5px;
+backgroundurl(mcs.jpg);
+position: fixed;
+top:0%;
+}
+.brand{
+
+    color:#fff;
+    font-weight:600;
+    font-size:15px;
+    margin:5px;
+    
+}
+.brand span{
+    color: yellow;
+}
+nav ul{
+    display:flex;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+nav ul li{
+    list-style:none;
+    display: block;
+    padding:0.3rem ;
+    border-radius:5px;
+    margin-left:0px;
+    font-size:0px;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:8px;
+}
+nav ul li:hover{
+    background:#ff6600;
+}
+.drop{
+    display: none;
+}
+
+.nav ul li:hover .drop
+{
+    display: block;
+    position: absolute;
+    background: blue;
+    margin-top:10px;
+    margin-left:-15px;
+    width:%;
+}
+.nav ul li:hover .drop ul{
+    display: block;
+    margin:10px;
+}
+.nav ul li:hover .drop ul li{
+    width:100px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    text-align: left;
+    border-radius:0;
+}
+.nav ul li:hover .drop ul li:last-child{
+    border-bottom:none;
+}
+Marquee p{
+    margin-top:50px
+}
+.footer{
+    margin-top:150px;
+    display:flex;
+    width:100%;
+    background-color: blue;
+    padding:8px ;
+}
+.footer div{
+    padding:8px;
+}
+.footer div a{
+    display: block;
+    text-decoration:none;
+    color: black;
+}
+.footer div h3{
+    font-weight:600;
+    margin-bottom:8px;
+}
