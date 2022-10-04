@@ -13,7 +13,7 @@ $recipient = "divinesuccess011@gmail.com";
 mail($recipient, $subject, $message, $mailheader)
 or die("Error!");
 
-echo"message sent";
+echo("message sent");
 
 ?>
 </html>
