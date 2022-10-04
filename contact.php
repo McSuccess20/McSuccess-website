@@ -1,17 +1,19 @@
+<html>
 <?php
-$name - $_post['name'];
-$email - $_post['email'];
-$tel - $_post['tel'];
-$subject - $_post['subject'];
-$message - $_post['messag'];
+$name = $_post['name'];
+$email = $_post['email'];
+$tel = $_post['tel'];
+$subject = $_post['subject'];
+$message = $_post['messag'];
 
-$mailheader - "from:".$name."<".$email.">\r\n";
+$mailheader = "from:".$name."<".$email.">\r\n";
 
-$recipient - "divinesuccess011@gmail.com";
+$recipient = "divinesuccess011@gmail.com";
 
 mail($recipient, $subject, $message, $mailheader)
-or die("Error!")
+or die("Error!");
 
-echo"message sent"
+echo("message sent")
 
 ?>
+</html>
